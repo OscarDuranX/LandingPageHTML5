@@ -6,40 +6,73 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Demo!</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
     <style>
         body{
-            padding-top: 5%;
+            padding-top: 20px;
+            font-size: 15px;
+            font-family: "Open Sans", serif;
+            background: transparent;
+        }
+        h1{
+            font-weight:400;
+            font-size: 40px;
+            font-family: "Julius Sans One",Arial, sans-serif;
+        }
+        .margin-vertical{
+            margin: 40px 0;
+        }
+
+        .red{
+            color: red;
+        }
+
+        .panel{
+            background-color: lightcyan;
+            border-color: black;
 
         }
+
+        html{
+            background: url('http://www.freewallpaperfullhd.com/wp-content/uploads/2015/03/wallpapers/fire_vs_ice-wallpaper-1920x1080.jpg');
+            -webkit-background-image: cover;
+            -moz-background-image: cover;
+            -o-background-image: cover;
+            -webkit-background-size: cover;
+            background-size: cover;
+        }
+
 
     </style>
 </head>
 <body>
-<div class="containter">
+<div class="containter ">
 
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-6 col-md-offset-3 panel">
 
             <h1 class="text-center">Lorem ipsum dolor sit.</h1>
 
 
             <p>Lorem ipsum dolor sit amet, consectetur.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at dolor impedit maiores, possimus tempora?</p>
-            <p>Interesat¿?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet assumenda, dolor doloremque, dolores enim eos et facere laborum libero magnam maxime molestiae numquam optio quidem quod quos rem sed ut veniam! At commodi eaque earum expedita obcaecati quam quis temporibus ut velit voluptatem! Aperiam culpa eum laborum repellendus sequi!</p>
+            <h3 class="margin-vertical text-center">Interesat¿?</h3>
 
             <form action="#" method="post">
                 <p class="input-group">
-                    <span class="input-group-addon">@</span>
+                    <span class="input-group-addon"><i class="fa fa-envelope fa-lg"></i></span>
                     <input
                             type="email"
                             class="form-control"
                             name="email"
                             placeholder="Your email here">
                 </p>
-                <p>No SPAM!</p>
-                <p>
+                <p class="red">No SPAM! <i class="fa fa-heart"></i></p>
+                <p class="text-center">
                     <input type="submit" value="Subscribete i dale a LIKE"
-                           class="btn btn-success btn-lg">
+                           class="btn btn-success">
                 </p>
 
             </form>
